@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/officespace_scrollview">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text="Office Title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView1"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceTitle"
+                android:hint="ex: Fish Bowl Office"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Room Size (in square metres)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceRoomSize"
+                android:hint="ex: 24"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Maximum Amount of People"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceMaxPeople"
+                android:hint="ex: 15"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Minimum Amount of People"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceMinimumPeople"
+                android:hint="ex: 3"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Flat Rate Per Hour"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceFlatRate"
+                android:hint="ex: R250"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Office Type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView6"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spn_officeSpaceType"
+                android:layout_margin="5dp"
+                android:background="@drawable/red_button" />
+            <TextView
+                android:text="Office Description"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_officeSpaceDescription"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Office Image"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView8"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/ivOfficeSpacePic"
+                android:layout_width="383.5dp"
+                android:layout_height="166.0dp"
+                android:clickable="true"
+                android:src="@drawable/ic_action_new_picture" />
+            <Button
+                android:text="Specific Office Items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_officeSpaceOfficeItems"
+                android:background="@drawable/red_button"
+                android:layout_margin="20dp" />
+            <Button
+                android:text="Office Calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_OfficeCalendar"
+                android:background="@drawable/red_button"
+                android:layout_margin="20dp" />
+            <Button
+                android:text="SAVE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_officeSpaceSave"
+                android:background="@drawable/red_button"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

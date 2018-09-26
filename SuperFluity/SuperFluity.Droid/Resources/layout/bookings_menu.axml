@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:text="View Quote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_action_view_as_list"
+            android:id="@+id/btnBookingQuote" />
+        <Button
+            android:text="Make Payment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_credit_card_white_24dp"
+            android:id="@+id/btnBookingPayment" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:text="Edit Booking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_action_edit"
+            android:id="@+id/btnBookingEdit" />
+        <Button
+            android:text="Cancel Booking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_action_remove"
+            android:id="@+id/btnBookingCancel" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:text="Share Booking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_action_share"
+            android:id="@+id/btnBookingShare" />
+        <Button
+            android:text="View Location On Map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_button"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_action_map"
+            android:id="@+id/btnBookingViewMap" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/ll_bookingcustomization_main">
+        <Button
+            android:text="Booking Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:drawableRight="@drawable/ic_date_range_white_48dp"
+            android:id="@+id/btn_bookingcustomization_date"
+            android:layout_margin="10dp" />
+        <Button
+            android:text="Start Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:drawableRight="@drawable/ic_action_time"
+            android:id="@+id/btn_bookingcustomization_startTime"
+            android:layout_margin="10dp"
+            android:tag="StartTime" />
+        <Button
+            android:text="End Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:drawableRight="@drawable/ic_action_time"
+            android:id="@+id/btn_bookingcustomization_endTime"
+            android:layout_margin="10dp"
+            android:tag="EndTime" />
+        <TextView
+            android:text="Optional Additional Items"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/ll_bookingcustomization_availableitems" />
+        <TextView
+            android:text="Included Items"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/ll_bookingcustomization_includeditems" />
+        <TextView
+            android:text="Quote"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/ll_bookingcustomization_quote" />
+        <Button
+            android:text="Confirm Booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:drawableRight="@drawable/ic_action_accept"
+            android:id="@+id/btn_bookingcustomization_confirm"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="4dp" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/red_button"
+            android:drawableRight="@drawable/ic_action_remove"
+            android:id="@+id/btn_bookingcustomization_cancel" />
+    </LinearLayout>
+</ScrollView>

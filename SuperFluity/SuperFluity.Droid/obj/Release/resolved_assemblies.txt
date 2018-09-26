@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\SuperFluity.Droid.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Java.Interop.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Mono.Android.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\System.Core.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\System.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\System.Xml.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\mscorlib.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\SuperFluity.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Xamarin.Android.Support.v4.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Xamarin.GooglePlayServices.Base.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\User\Desktop\Development\SuperFluity\SuperFluity\SuperFluity.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll

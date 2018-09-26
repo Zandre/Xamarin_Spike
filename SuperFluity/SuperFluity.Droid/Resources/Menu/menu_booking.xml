@@ -1,0 +1,26 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.squashbotv2.Dashboard" >
+  
+
+  <item android:id="@+id/bookingOverflowoverflow"
+	    	android:icon="@drawable/ic_filter_list_white_48dp"
+			  android:showAsAction="always">
+        <menu >
+          <group android:checkableBehavior="all">
+              <item
+                android:id="@+id/bookingShowConfirmed"              
+                android:title="Show Confirmed Bookings"/>
+              <item
+                android:id="@+id/bookingShowAwaitingPayment"
+                android:title="Show Bookings Awaiting Payment"/>
+              <item
+                android:id="@+id/bookingShowCancelled"
+                android:title="Show Cancelled Bookings"/>
+              <item
+                android:id="@+id/bookingShowPastBookings"
+                android:title="Show Past Bookings"/>
+          </group>
+        </menu>
+  </item>
+</menu>

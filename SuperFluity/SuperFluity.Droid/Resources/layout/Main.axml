@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#4d4d4d">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="New Booking"
+            android:layout_margin="10dp"
+            android:background="@drawable/red_button"
+            style="@style/button_text"
+            android:id="@+id/btnNewBooking" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="My Bookings"
+            android:background="@drawable/red_button"
+            android:layout_margin="10dp"
+            style="@style/button_text"
+            android:id="@+id/btnMyBookings" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Listings"
+            android:background="@drawable/red_button"
+            android:layout_margin="10dp"
+            style="@style/button_text"
+            android:id="@+id/btnListing" />
+    </LinearLayout>
+</LinearLayout>

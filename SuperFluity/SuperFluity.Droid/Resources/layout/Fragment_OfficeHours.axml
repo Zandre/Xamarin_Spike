@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/locationdetail_scrollviewHours">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/locationdetail_hoursframe"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text="Monday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMonday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkMonday"
+                android:tag="Monday"
+                android:checked="true" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMondayOpen"
+                android:background="@drawable/red_button"
+                android:tag="MondayOpen"
+                android:layout_margin="4dp" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMondayClose"
+                android:background="@drawable/red_button"
+                android:tag="MondayClose"
+                android:layout_margin="4dp" />
+            <TextView
+                android:text="Tuesday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTuesday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkTuesday"
+                android:tag="Tuesday"
+                android:checked="true" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTeusdayOpen"
+                android:background="@drawable/red_button"
+                android:tag="TuesdayOpen"
+                android:layout_margin="4dp" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTuesdayClose"
+                android:background="@drawable/red_button"
+                android:tag="TuesdayClose"
+                android:layout_margin="4dp" />
+            <TextView
+                android:text="Wednesday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWednesday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkWednesday"
+                android:tag="Wednesday"
+                android:checked="true" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnWednesdayOpen"
+                android:background="@drawable/red_button"
+                android:tag="WednesdayOpen"
+                android:layout_margin="4dp" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnWednesdayClose"
+                android:background="@drawable/red_button"
+                android:tag="WednesdayClose"
+                android:layout_margin="4dp" />
+            <TextView
+                android:text="Thursday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvThursday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkThursday"
+                android:tag="Thursday"
+                android:checked="true" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnThursdayOpen"
+                android:background="@drawable/red_button"
+                android:tag="ThursdayOpen"
+                android:layout_margin="4dp" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnThursdayClose"
+                android:background="@drawable/red_button"
+                android:tag="ThursdayClose"
+                android:layout_margin="4dp" />
+            <TextView
+                android:text="Friday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFriday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkFriday"
+                android:tag="Friday"
+                android:checked="true" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFridayOpen"
+                android:background="@drawable/red_button"
+                android:tag="FridayOpen"
+                android:layout_margin="4dp" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFridayClose"
+                android:background="@drawable/red_button"
+                android:tag="FridayClose"
+                android:layout_margin="4dp" />
+            <TextView
+                android:text="Saturday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSaturday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="Saturday"
+                android:id="@+id/chkSaturday" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSaturdayOpen"
+                android:background="@drawable/red_button"
+                android:tag="SaturdayOpen"
+                android:layout_margin="4dp"
+                android:enabled="false" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSaturdayClose"
+                android:background="@drawable/red_button"
+                android:tag="SaturdayClose"
+                android:layout_margin="4dp"
+                android:enabled="false" />
+            <TextView
+                android:text="Sunday"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSunday" />
+            <CheckBox
+                android:text="Open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="Sunday"
+                android:id="@+id/chkSunday" />
+            <Button
+                android:text="Opening Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSundayOpen"
+                android:background="@drawable/red_button"
+                android:tag="SundayOpen"
+                android:layout_margin="4dp"
+                android:enabled="false" />
+            <Button
+                android:text="Closing Hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSundayClose"
+                android:background="@drawable/red_button"
+                android:tag="SundayClose"
+                android:layout_margin="4dp"
+                android:enabled="false" />
+
+
+          <Button
+    android:text="Save"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnSaveOfficeHours"
+    android:background="@drawable/red_button"
+    android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
